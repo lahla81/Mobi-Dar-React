@@ -10,7 +10,7 @@ const AllBrands = ({ mobiles }) => {
             <div className="c-latest__head">
                 <div className="font-body-bold mr-4 mb-1 mt-3 text-center">
                     <a className="h3 c-title" href="#latest">
-                        SAMSUNG MOBILES
+                        Xiaomi MOBILES
                     </a>
                 </div>
                 <div className="row c-latest__row">

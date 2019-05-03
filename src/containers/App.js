@@ -4,9 +4,7 @@ import Navbar from '../components/navbar/Navbar';
 import HeaderLogo from '../components/header/HeaderLogo';
 import HeaderForm from '../components/header/HeaderForm';
 import ALLBrandsHeader from '../components/Brands/AllBrandsHeader';
-// import Samsung from '../components/mobiles/Samsung';
 import AllBrands from '../components/mobiles/AllBrands';
-// import Sony from '../components/mobiles/Sony';
 import './App.css';
 import '../components/assets/fonts/cairo/cairo.css';
 import '../components/assets/css/bootstrap/bootstrap.css';
@@ -47,7 +45,7 @@ class App extends Component {
     });
     
     return isPending ?
-      <h1>Loading</h1> :
+      <h1 className="text-center p-2 m-2 text-primary font-body-bold">.....Loading</h1> :
     (
       <div className="container">
         <Navbar />
